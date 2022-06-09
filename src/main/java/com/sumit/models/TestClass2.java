@@ -5,10 +5,6 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import org.eclipse.microprofile.openapi.annotations.media.Schema;
 import org.immutables.value.Value;
 import org.jooq.Catalog;
-
-/**
- * @author Sumit Choudhary (sumit.choudhary@addepar.com)
- */
 @Value.Immutable
 @JsonDeserialize(as = ImmutableTestClass2.class)
 public interface TestClass2 {
